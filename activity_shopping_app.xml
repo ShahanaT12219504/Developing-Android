@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".ShoppingApp">
+<com.google.android.material.appbar.AppBarLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar2"
+        android:layout_width="410dp"
+        android:layout_height="100dp"
+        app:title="Shopping Store"
+        app:titleTextColor="@color/teal"
+        android:layout_marginTop="25dp"
+        app:logo="@drawable/ic_android_black_24dp"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <GridLayout
+                android:layout_width="wrap_content"
+                android:rowCount="2"
+                android:columnCount="1"
+                android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="250dp"
+            android:layout_height="200dp"
+            android:src="@drawable/img_1"></ImageView>
+                <RatingBar
+                    android:layout_width="wrap_content"
+                    android:id="@+id/ratBar"
+                    android:layout_height="wrap_content"
+                    android:numStars="5"></RatingBar>
+            </GridLayout>
+            <GridLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:rowCount="2"
+                android:columnCount="1">
+        <ImageView
+            android:id="@+id/img2"
+            android:layout_width="250dp"
+            android:layout_height="200dp"
+            android:src="@drawable/img_2"></ImageView>
+                <RatingBar
+                    android:layout_width="wrap_content"
+                    android:id="@+id/ratBar1"
+                    android:layout_height="wrap_content"
+                    android:numStars="5"></RatingBar>
+            </GridLayout>
+            <ImageView
+                android:id="@+id/img3"
+                android:layout_width="250dp"
+                android:layout_height="200dp"
+                android:src="@drawable/img_3"></ImageView>
+            <ImageView
+                android:id="@+id/img4"
+                android:layout_width="250dp"
+                android:layout_height="200dp"
+                android:src="@drawable/img_4"></ImageView>
+            <ImageView
+                android:id="@+id/img5"
+                android:layout_width="250dp"
+                android:layout_height="200dp"
+                android:src="@drawable/img_5"></ImageView>
+            <ImageView
+                android:id="@+id/img6"
+                android:layout_width="250dp"
+                android:layout_height="200dp"
+                android:src="@drawable/img_6"></ImageView>
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="70dp"
+                android:textColor="@color/purple"></TextView>
+        </LinearLayout>
+
+    </ScrollView>
+
+</com.google.android.material.appbar.AppBarLayout>
+</LinearLayout>
