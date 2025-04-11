@@ -1,0 +1,44 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp"
+    android:background="@color/lightgray">
+
+    <Button
+        android:id="@+id/btnPostCommunity"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:text="Post in Community"
+        android:backgroundTint="@color/navy"
+        android:textColor="@android:color/white"
+        android:textSize="25sp"
+        android:padding="15dp"/>
+
+    <Button
+        android:id="@+id/btnStartDiscussion"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:text="Start a Discussion"
+        android:backgroundTint="@color/cerulean"
+        android:textColor="@android:color/white"
+        android:textSize="25sp"
+        android:padding="15dp"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/btnFindPeople"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:text="Find New People"
+        android:backgroundTint="@color/sky"
+        android:textColor="@android:color/white"
+        android:textSize="25sp"
+        android:padding="15dp"
+        android:layout_marginTop="20dp"/>
+
+
+
+</LinearLayout>

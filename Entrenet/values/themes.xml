@@ -1,0 +1,13 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- If this theme already exists, just change the name -->
+    <style name="Theme.Entrenet" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your theme colors -->
+        <item name="colorPrimary">@color/cerulean</item>
+        <item name="colorSecondary">@color/sky</item>
+        <item name="colorBackground">@color/white</item>
+        <item name="android:statusBarColor" tools:targetApi="l">@color/cerulean</item>
+        <!-- Add more items as needed -->
+    </style>
+
+</resources>
